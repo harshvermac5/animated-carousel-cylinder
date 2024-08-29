@@ -1,13 +1,44 @@
-# React + Vite
+Here's a sample `README.md` file for your project:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+```markdown
+# Animated Carousel Cylinder
 
-Currently, two official plugins are available:
+A 3D animated carousel cylinder created with **Vite**, **React**, **Three Fiber**, and **Drei**. This component provides an interactive, rotating display for showcasing items in a visually engaging and dynamic way, perfect for portfolios, product showcases, or any interactive web experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-step1: npm install three @react-three/fiber
-step2: remove the irrelevant folder and files
-assets, app.css, codes in app.jsx, codes in index.css
-step3: npm install @react-three/drei
+- **3D Animation:** Smooth, rotating cylinder animation to display multiple items.
+- **Modern Stack:** Built using Vite for fast development, React for a component-based approach, and Three Fiber and Drei for powerful 3D rendering.
+- **Customization:** Easily customizable to fit various use cases.
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/yourusername/animated-carousel-cylinder.git
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   cd animated-carousel-cylinder
+   npm install
+   npm install three @react-three/fiber
+   npm install @react-three/drei
+   ```
+
+3. Run the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request for any improvements or bug fixes.
+
+## Inspiration
+
+This Project is created with the inspiration from this [video](https://youtu.be/9qQ8WxF-h8o) by sherians coding school
